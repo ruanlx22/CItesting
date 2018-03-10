@@ -19,7 +19,7 @@ public class CaculatorTest {
 	}
 	@Test
 	public void testAdd1() {
-		assertEquals(1, calc.add(3,2));
+		assertEquals(1, calc.add(0,1));
 	}
 //	@Test
 //	public void testSub() {
