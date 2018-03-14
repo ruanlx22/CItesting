@@ -21,10 +21,10 @@ public class CaculatorTest {
 	public void testAdd1() {
 		assertEquals(1, calc.add(0,1));
 	}
-//	@Test
-//	public void testSub() {
-//		assertEquals(1, calc.sub(3,2));
-//	}
+	@Test
+	public void testSub() {
+		assertEquals(1, calc.sub(3,2));
+	}
 //	@Test
 //	public void testMul() {
 //		assertEquals(6, calc.mul(3,2));
