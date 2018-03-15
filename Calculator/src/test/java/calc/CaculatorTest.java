@@ -49,4 +49,16 @@ public class CaculatorTest {
 	public void testAbsoluteValue() {
 		assertEquals(30, calc.abs(-30));
 	}
+	@Test
+	public void testPower() {
+		assertEquals(8,calc.power(2, 3));
+	}
+	@Test
+	public void testPowerByZero() {
+		assertEquals(1,calc.power(2, 0));
+	}
+	@Test
+	public void testPowerByMinus() {
+		assertEquals(0,calc.power(2, -1));
+	}
 }
