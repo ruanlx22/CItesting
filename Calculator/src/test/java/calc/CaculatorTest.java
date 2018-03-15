@@ -82,4 +82,8 @@ public class CaculatorTest {
 	public void testIntegration3() {
 		assertEquals(5,calc.abs(calc.sub(calc.square(2),calc.div(27,3))));
 	}
+	@Test
+	public void testIntegration4() {
+		assertEquals(10,calc.abs(calc.sub(calc.square(-2),calc.div(42,3))));
+	}
 }
