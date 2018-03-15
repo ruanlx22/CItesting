@@ -69,4 +69,8 @@ public class CaculatorTest {
 	public void testIntegration( ) {
 		assertEquals(-2,calc.add(calc.sub(calc.abs(-5), 2),-5));
 	}
+	@Test
+	public void testIntegration1() {
+		assertEquals(1, calc.power(calc.sub(calc.div(10, 2), calc.square(2)), 3));//((10/2)-2^2)^3=1
+	}
 }
