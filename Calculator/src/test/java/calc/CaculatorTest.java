@@ -86,4 +86,8 @@ public class CaculatorTest {
 	public void testIntegration4() {
 		assertEquals(10,calc.abs(calc.sub(calc.square(-2),calc.div(42,3))));
 	}
+	@Test
+	public void testIntegration5() {
+		assertEquals(6,calc.mul(calc.sub(calc.power(3, 2), calc.sub(10, 2)),6));//(3^2-(10-2))*6=6
+	}
 }
