@@ -61,4 +61,8 @@ public class CaculatorTest {
 	public void testPowerByMinus() {
 		assertEquals(0,calc.power(2, -1));
 	}
+	@Test
+	public void testSquare() {
+		assertEquals(9, calc.square(3));
+	}
 }

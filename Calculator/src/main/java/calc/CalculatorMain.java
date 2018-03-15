@@ -48,4 +48,8 @@ public class CalculatorMain {
 		}
 		return result;
 	}
+	public int square(int a )
+	{
+		return a*a;
+	}
 }
