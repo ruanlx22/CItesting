@@ -65,4 +65,8 @@ public class CaculatorTest {
 	public void testSquare() {
 		assertEquals(9, calc.square(3));
 	}
+	@Test
+	public void testIntegration( ) {
+		assertEquals(-2,calc.add(calc.sub(calc.abs(-5), 2),-5));
+	}
 }
