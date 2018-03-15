@@ -78,4 +78,8 @@ public class CaculatorTest {
 		//(2^4)-(4^2)/(1+1) = 8
 		assertEquals(8,calc.sub(calc.power(2, 4),calc.div(calc.square(4),calc.add(1, 1))));
 	}
+	@Test
+	public void testIntegration3() {
+		assertEquals(5,calc.abs(calc.sub(calc.square(2),calc.div(27,3))));
+	}
 }
