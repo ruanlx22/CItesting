@@ -21,4 +21,14 @@ public class CalculatorMain {
 	public int mul(int a, int b) {
 		return a*b;
 	}
+	public int abs(int a) {
+		int aa=0;
+		if (a>=0) {
+			aa=a;
+		}
+		else {
+			aa=-a;
+		}
+		return aa;
+	}
 }

@@ -45,4 +45,8 @@ public class CaculatorTest {
 	public void testPresedence1() {
 		assertEquals(30, calc.add(calc.mul(5, calc.sub(10, 5)), calc.div(10, 2)));
 	}
+	@Test
+	public void testAbsoluteValue() {
+		assertEquals(30, calc.abs(-30));
+	}
 }
